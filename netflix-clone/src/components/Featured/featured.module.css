@@ -1,0 +1,106 @@
+.__container {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.img__ {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.info__ {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.stats__ {
+    width: 20%;
+    margin-left: 8%;
+    margin-top: 9%;
+    font-weight: 600;
+    font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating__ .star__ {
+  color: var(--red);
+}
+.season__{
+    word-spacing: .6rem;
+}
+
+.title__{
+    margin-left: 8%;
+    font-size: 1.7rem;
+    letter-spacing: .8rem;
+    margin-top: 0;
+    word-spacing: .2rem;
+    font-weight: 700;
+}
+
+.desc__{
+    width: 40%;
+    margin-left: 8%;
+    line-height: 1.5;
+    color: rgb(248, 248, 248);
+    letter-spacing: .04rem;
+    word-spacing: .04rem;
+}
+
+.btn__{
+    display: flex;
+    margin-left: 8%;
+}
+
+.watch__{
+    color: #fff;
+    margin-right: 1rem;
+    background-color: var(--red);
+    outline: none;
+    border: transparent;
+    border-radius: 10px;
+    width: 7rem;
+    height: 2rem;
+    font-weight: 700;
+    letter-spacing: .04rem;
+    text-align: center;
+    display: flex;
+    padding-top: .7%;
+    padding-left: 18px;
+}
+
+.icon__watch{
+    font-size: 1rem;
+    margin-right: .6rem;
+}
+
+.add__list{
+    color: #fff;
+    margin-right: 1rem;
+    background-color: rgb(56, 56, 56);
+    outline: none;
+    border: transparent;
+    border-radius: 10px;
+    width: 9rem;
+    height: 2rem;
+    font-weight: 700;
+    letter-spacing: .04rem;
+    text-align: center;
+    display: flex;
+    padding-top: .7%;
+    padding-left: 18px;
+    padding-right: 10px;
+}
+
+.add__icon{
+   font-size: 1rem;
+   margin-right: .7rem;
+}
